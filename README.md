@@ -92,8 +92,7 @@ SSH into the control node and follow the steps below:
 - Ansible ELK Installation and VM Configuration.
 - Run the playbook, and navigate to ansible-playbook install-elk.yml to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
-- Ran FileBeat Playing with the following command:
+Ran FileBeat Playing with the following command:
 curl -L -O https://gist.githubusercontent.com/slape/58541585cc1886d2e26cd8be557ce04c/raw/0ce2c7e744c54513616966affb5e9d96f5e12f73/metricbeat > /etc/ansible/files/metricbeat-config.yml
 
  curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.6.1-amd64.deb
