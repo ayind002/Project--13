@@ -48,16 +48,19 @@ The machines on the internal network are not exposed to the public Internet.
 Only the Elk Server machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 - Azure Public IP Address TCP 5601
 
-Machines within the network can only be accessed by _____.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+Machines within the network can only be accessed by JumpBox Provisioner through the workstation.
+- Jump-Box-Provisioner IP: 10.0.0.4 though SSH port 22
+  Workstation Pulic IP via port TCP 561
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Name     | Publicly Accessible | Allowed IP Addresses                 |
+|----------|---------------------|----------------------                |
+| Jump Box |      No              | Workstation Public IP through 22    |
+| Web 1    |      No              | 10.0.0.5                            |
+| Web 2    |      No              | 10.0.0.6                            |
+| Web 3    |      No              |10.0.0.7                               |
+| Elk Server|      No             |10.1.0.4                                   
 
 ### Elk Configuration
 
