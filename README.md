@@ -4,7 +4,7 @@ Automated Elk Stack Development - Azure
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+![Project 13 Niyi. drawio.png](https://github.com/ayind002/Project--13/blob/main/Diagrams/Project%2013%20Niyi.%20drawio.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
